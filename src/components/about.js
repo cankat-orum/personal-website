@@ -4,13 +4,13 @@ import "../styles/style.css";
 export default function about() {
   const mystyle = {
     backgroundColor: "DodgerBlue",
-    width: "50px",
-    height: "50px",
+    width: "250px",
+    height: "250px",
   };
   return (
     <>
-      <main>
-        <section>
+      <main className="about-main">
+        <section className="about-section">
           <figure>
             <div style={mystyle}></div>
           </figure>
