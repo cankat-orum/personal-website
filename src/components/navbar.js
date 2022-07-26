@@ -3,15 +3,12 @@ import "../styles/style.css";
 
 export default function navbar() {
   return (
-    <div className="nav-div">
+    <header className="nav-div">
       <nav className="nav-sem">
         <a class="logo" href="#">
           Header Logo
         </a>
         <ul class="nav-ul">
-          <li>
-            <a href="#">Home</a>
-          </li>
           <li>
             <a href="#">About Me</a>
           </li>
@@ -23,6 +20,6 @@ export default function navbar() {
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 }
