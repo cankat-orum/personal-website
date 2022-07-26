@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/style.css";
 
 export default function navbar() {
   return (
@@ -7,7 +8,7 @@ export default function navbar() {
         <a class="logo" href="#">
           Header Logo
         </a>
-        <ul class="navbar-ul">
+        <ul class="nav-ul">
           <li>
             <a href="#">Home</a>
           </li>
