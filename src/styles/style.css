@@ -3,50 +3,10 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-.nav-sem {
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 90%;
-  margin: 0 auto;
-  padding-top: 30px;
-}
-
-.logo {
-  font-size: 36px;
-  color: rgb(39, 74, 87);
-  text-decoration: none;
-}
-
-.nav-ul {
-  display: flex;
-}
-
-.nav-ul li {
-  list-style-type: none;
-  margin-left: 25px;
-}
-
-.nav-ul a {
-  text-decoration: none;
-  color: rgb(39, 74, 87);
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.about-section {
-  display: flex;
-  max-width: 75%;
-  margin: 0 auto;
-  padding-top: 25px;
 }
