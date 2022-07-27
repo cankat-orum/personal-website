@@ -6,7 +6,7 @@ export default function navbar() {
     <header className="nav-div">
       <nav className="nav-sem">
         <a class="logo" href="#">
-          Header Logo
+          Second Branch
         </a>
         <ul class="nav-ul">
           <li>
