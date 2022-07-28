@@ -86,3 +86,52 @@ html {
   margin-right: auto;
   cursor: pointer;
 }
+
+.list-item-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #000;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.list-item-div:hover {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.desc-div {
+}
+
+.desc-header h2,
+.short-desc,
+.long-desc {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.1em;
+  opacity: 0.9;
+}
+
+.long-desc {
+  display: none;
+}
+
+.list-item-div:hover .long-desc {
+  display: block;
+}
+
+.item-figure {
+  width: 175x;
+  display: flex;
+  justify-content: center;
+}
+
+.item-figure img {
+  width: 175px;
+}
+
+.list-item-div:hover .item-figure img {
+  width: 240px;
+}
