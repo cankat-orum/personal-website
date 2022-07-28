@@ -166,3 +166,33 @@ html {
   text-decoration: none;
   border: none;
 }
+
+.float-nav {
+  max-width: fit-content;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-list li {
+  border-bottom: 1px solid #000;
+  display: block;
+  margin-right: auto;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.nav-list a {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
