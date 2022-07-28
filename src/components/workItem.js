@@ -82,7 +82,7 @@ const workItem = (props) => {
         <p className="long-desc">{props.longDesc}</p>
       </div>
       <figure className="item-figure">
-        <img src={image01} alt="Item Img" />
+        <img src={props.image} alt={props.imageAlt} />
       </figure>
       <br />
     </div>
