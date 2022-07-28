@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/style.css";
 import image01 from "../assets/justin-lindemann-BiA9dOnPwLY-unsplash.jpg";
 
-export default function workItem() {
+const workItem = (props) => {
   return (
     <div className="list-item-div">
       <ul className="tech-ul">
@@ -76,13 +76,10 @@ export default function workItem() {
       </ul>
       <div className="desc-div">
         <header className="desc-header">
-          <h2>THIS IS THE TITLE!</h2>
+          <h2>{props.title}</h2>
         </header>
-        <p className="short-desc">This is a short description of the item.</p>
-        <p className="long-desc">
-          This is a short description of the item.This is a short description of
-          the item.This is a short description of the item.
-        </p>
+        <p className="short-desc">{props.shortDesc}</p>
+        <p className="long-desc">{props.longDesc}</p>
       </div>
       <figure className="item-figure">
         <img src={image01} alt="Item Img" />
@@ -90,4 +87,6 @@ export default function workItem() {
       <br />
     </div>
   );
-}
+};
+
+export default workItem;

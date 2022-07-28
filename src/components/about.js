@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/style.css";
 
-export default function about() {
+const about = () => {
   return (
     <article className="about-article">
       <header className="about-header">
@@ -84,4 +84,5 @@ export default function about() {
       </footer>
     </article>
   );
-}
+};
+export default about;

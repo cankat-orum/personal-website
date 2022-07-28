@@ -116,6 +116,7 @@ html {
 
 .long-desc {
   display: none;
+  font-size: 1em;
 }
 
 .list-item-div:hover .long-desc {

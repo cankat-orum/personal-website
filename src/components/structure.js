@@ -2,10 +2,11 @@ import React from "react";
 import Navbar from "./navbar.js";
 import About from "./about.js";
 import WorkItem from "./workItem.js";
+import WorkList from "./workList.js";
 import "../styles/style.css";
 import image01 from "../assets/justin-lindemann-BiA9dOnPwLY-unsplash.jpg";
 
-export default function structure() {
+const structure = () => {
   return (
     <div
       className="body-div"
@@ -18,9 +19,11 @@ export default function structure() {
         <main className="content-main">
           <Navbar />
           <About />
-          <WorkItem />
+          <WorkList />
         </main>
       </div>
     </div>
   );
-}
+};
+
+export default structure;
