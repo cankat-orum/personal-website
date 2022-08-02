@@ -5,13 +5,13 @@ const floatNav = () => {
     <nav className="float-nav">
       <ul className="nav-list">
         <li>
-          <a href="#aboutID">ABOUT</a>
+          <a href="#about">ABOUT</a>
         </li>
         <li>
-          <a href="#worksID">WORKS</a>
+          <a href="#works">WORKS</a>
         </li>
         <li>
-          <a href="#">CONTACT</a>
+          <a href="#contact-form">CONTACT</a>
         </li>
       </ul>
     </nav>

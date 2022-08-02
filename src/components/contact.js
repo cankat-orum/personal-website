@@ -25,36 +25,32 @@ export default function Contact() {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
   return (
-    <form onSubmit={onSubmit}>
-      <input
-        type="text"
-        name="from_name"
-        placeholder="from name"
-        value={toSend.from_name}
-        onChange={handleChange}
-      />
-      <input
-        type="text"
-        name="to_name"
-        placeholder="to name"
-        value={toSend.to_name}
-        onChange={handleChange}
-      />
-      <input
-        type="text"
-        name="message"
-        placeholder="Your message"
-        value={toSend.message}
-        onChange={handleChange}
-      />
-      <input
-        type="text"
-        name="reply_to"
-        placeholder="Your email"
-        value={toSend.reply_to}
-        onChange={handleChange}
-      />
-      <button type="submit">Submit</button>
-    </form>
+    <section className="form-section" id="contact-form">
+      <span>Drop me a message</span>
+      <form className="contact-form" onSubmit={onSubmit}>
+        <input
+          type="text"
+          name="from_name"
+          placeholder="Your name"
+          value={toSend.from_name}
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          name="reply_to"
+          placeholder="Your email"
+          value={toSend.reply_to}
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          name="message"
+          placeholder="Your message"
+          value={toSend.message}
+          onChange={handleChange}
+        />
+        <button type="submit">Send</button>
+      </form>
+    </section>
   );
 }

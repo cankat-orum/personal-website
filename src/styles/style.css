@@ -137,7 +137,7 @@ html {
 .worklist-main {
   margin: 0px -30px;
   margin-top: 30px;
-  padding: 30px 30px;
+  padding: 60px 30px;
   background-color: rgb(254 255 127);
 }
 
@@ -196,4 +196,60 @@ html {
   text-decoration: none;
   writing-mode: vertical-rl;
   text-orientation: upright;
+}
+
+.form-section * {
+  background-color: #000;
+  border: none;
+  padding: 5px;
+  margin-bottom: 40px;
+  font-size: large;
+  font-weight: bold;
+  padding: 0px;
+}
+
+.form-section {
+  margin: 0px -30px;
+  padding: 60px 30px;
+  background-color: #000;
+}
+
+.form-section span {
+  padding: 0px;
+  color: #fff;
+  cursor: default;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.contact-form input {
+  padding: 5px 0px;
+  color: #999;
+  border-bottom: 1.5px solid #999;
+}
+
+.contact-form input:focus {
+  outline: none;
+}
+
+.contact-form input:-webkit-autofill,
+input:focus:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100px black inset;
+  -webkit-text-fill-color: #999;
+}
+
+.contact-form button {
+  width: 25%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 0px !important;
+  cursor: pointer;
 }

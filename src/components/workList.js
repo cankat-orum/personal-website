@@ -5,7 +5,7 @@ import image01 from "../assets/justin-lindemann-BiA9dOnPwLY-unsplash.jpg";
 
 const workList = () => {
   return (
-    <section id="worksID">
+    <section id="works">
       <main className="worklist-main">
         <header className="worklist-header">
           <h2>Works</h2>
