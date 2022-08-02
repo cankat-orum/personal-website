@@ -4,6 +4,7 @@ import About from "./about.js";
 import WorkList from "./workList.js";
 import Footer from "./footer.js";
 import FloatNav from "./floatNav.js";
+import Contact from "./contact.js";
 import "../styles/style.css";
 import image01 from "../assets/justin-lindemann-BiA9dOnPwLY-unsplash.jpg";
 
@@ -22,6 +23,7 @@ const structure = () => {
           <Navbar />
           <About />
           <WorkList />
+          <Contact />
           <Footer />
         </main>
       </div>
