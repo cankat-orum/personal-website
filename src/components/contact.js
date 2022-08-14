@@ -31,21 +31,21 @@ export default function Contact() {
         <input
           type="text"
           name="from_name"
-          placeholder="Your name"
+          placeholder="Your name*"
           value={toSend.from_name}
           onChange={handleChange}
         />
         <input
-          type="text"
+          type="email"
           name="reply_to"
-          placeholder="Your email"
+          placeholder="Your email*"
           value={toSend.reply_to}
           onChange={handleChange}
         />
         <input
           type="text"
           name="message"
-          placeholder="Your message"
+          placeholder="Your message*"
           value={toSend.message}
           onChange={handleChange}
         />

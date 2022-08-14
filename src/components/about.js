@@ -21,6 +21,7 @@ const about = () => {
               target="_blank"
               rel="noopener me"
               title="Github"
+              className="github-svg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,6 +43,7 @@ const about = () => {
               target="_blank"
               rel="noopener me"
               title="Linkedin"
+              className="linkedin-svg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -65,6 +67,7 @@ const about = () => {
               target="_blank"
               rel="noopener me"
               title="Twitter"
+              className="twitter-svg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
