@@ -33,6 +33,13 @@ html {
   flex: 0.7;
 }
 
+@media only screen and (max-width: 720px) {
+  .left-invis {
+    background-color: transparent;
+    flex: 0;
+  }
+}
+
 .content-main {
   flex: 1.1;
   background-color: #fff;

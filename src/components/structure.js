@@ -9,7 +9,7 @@ import "../styles/style.css";
 import image01 from "../assets/justin-lindemann-BiA9dOnPwLY-unsplash.jpg";
 
 const structure = () => {
-  let url = "https://source.unsplash.com/random/?german,city";
+  let url = "https://source.unsplash.com/random/1920×1080/?german,city";
   console.log(url);
   return (
     <div
