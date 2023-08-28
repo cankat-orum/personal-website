@@ -9,11 +9,13 @@ import "../styles/style.css";
 import image01 from "../assets/justin-lindemann-BiA9dOnPwLY-unsplash.jpg";
 
 const structure = () => {
+  let url = "https://source.unsplash.com/random/?german,city";
+  console.log(url);
   return (
     <div
       className="body-div"
       style={{
-        backgroundImage: `url(${image01})`,
+        backgroundImage: `url(${url})`,
       }}
     >
       <div className="content-wrap">
