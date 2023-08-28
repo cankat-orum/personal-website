@@ -5,7 +5,7 @@ const floatNav = () => {
     <nav className="float-nav">
       <ul className="nav-list">
         <li>
-          <a href="#about">ABOUT</a>
+          <a href="#main-header">ABOUT</a>
         </li>
         <li>
           <a href="#works">WORKS</a>
