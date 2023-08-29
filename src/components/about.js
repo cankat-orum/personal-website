@@ -9,10 +9,10 @@ const about = () => {
           <h2>Hi, my name is Cankat.</h2>
         </header>
         <p>
-          I'm a full stack web developer based in Seattle, WA with a background
-          in technical and customer-focused support. Looking for an opportunity
-          to apply creative, analytical, and communicative skills on a
-          development team.
+          I'm a full stack web developer based in Balikesir, Turkiye with a
+          background in Management Information Systems education. Looking for an
+          opportunity to apply creative, analytical, and communicative skills on
+          a development team.
         </p>
         <footer>
           <div className="about-social">

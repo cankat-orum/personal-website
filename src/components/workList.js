@@ -13,27 +13,27 @@ const workList = () => {
         <ul className="worklist-ul">
           <li>
             <WorkItem
-              title="THIS IS THE TITLE!"
-              shortDesc="This is a short description of the item."
-              longDesc="This is a long description of the item. This is a long description of the item. This is a long description of the item."
+              title="BİLDİR"
+              shortDesc="Sharing urban problems"
+              longDesc="Bildir gives users a platform where they can share the urban issues they are facing."
               image={image01}
               imageAlt="Image Alt"
             />
           </li>
           <li>
             <WorkItem
-              title="THIS IS THE TITLE!"
-              shortDesc="This is a short description of the item."
-              longDesc="This is a long description of the item. This is a long description of the item. This is a long description of the item."
+              title="BUDGED"
+              shortDesc="Personal finance app"
+              longDesc="Budged is a personal finance app that focuses on 50/30/20 budgeting method, built with Flutter and SQLite."
               image={image01}
               imageAlt="Image Alt"
             />
           </li>
           <li>
             <WorkItem
-              title="THIS IS THE TITLE!"
-              shortDesc="This is a short description of the item."
-              longDesc="This is a long description of the item. This is a long description of the item. This is a long description of the item."
+              title="TO-DO App"
+              shortDesc="A fun to-do demo built with React JS and Giphy API."
+              longDesc=""
               image={image01}
               imageAlt="Image Alt"
             />
