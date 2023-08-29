@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.37266212.css",
-    "main.js": "/personal-website/static/js/main.b2fe6416.js",
+    "main.js": "/personal-website/static/js/main.a1bc4bd8.js",
     "static/media/justin-lindemann-BiA9dOnPwLY-unsplash.jpg": "/personal-website/static/media/justin-lindemann-BiA9dOnPwLY-unsplash.ad8b6d14c38aabf035c6.jpg",
     "index.html": "/personal-website/index.html",
     "main.37266212.css.map": "/personal-website/static/css/main.37266212.css.map",
-    "main.b2fe6416.js.map": "/personal-website/static/js/main.b2fe6416.js.map"
+    "main.a1bc4bd8.js.map": "/personal-website/static/js/main.a1bc4bd8.js.map"
   },
   "entrypoints": [
     "static/css/main.37266212.css",
-    "static/js/main.b2fe6416.js"
+    "static/js/main.a1bc4bd8.js"
   ]
 }
